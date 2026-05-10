@@ -1,0 +1,35 @@
+{
+  "name": "@codewithevilxd/repoharbor",
+  "author": "codewithevilxd <codewithevilxd@gmail.com>",
+  "version": "1.0.0",
+  "description": "RepoHarbor is a polished TUI to browse, search, and download files from GitHub repositories",
+  "license": "MIT",
+  "bin": {
+    "repoharbor": "bin/repoharbor.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "postinstall": "node scripts/install.js",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "github",
+    "downloader",
+    "tui",
+    "cli",
+    "files"
+  ],
+  "files": [
+    "bin/repoharbor.js",
+    "scripts/install.js"
+  ],
+  "homepage": "https://Nishantdev.space",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codewithevilxd/repoharbor.git"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
