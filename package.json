@@ -1,5 +1,5 @@
 {
-  "name": "@codewithevilxd/repoharbor",
+  "name": "repoharbor",
   "author": "codewithevilxd <codewithevilxd@gmail.com>",
   "version": "1.0.0",
   "description": "RepoHarbor is a polished TUI to browse, search, and download files from GitHub repositories",

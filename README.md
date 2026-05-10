@@ -21,11 +21,11 @@ It is built for people who want a fast way to inspect a repo without cloning the
 Use npm:
 
 ```bash
-npx @codewithevilxd/repoharbor
+npx repoharbor
 ```
 
 ```bash
-npm install -g @codewithevilxd/repoharbor
+npm install -g repoharbor
 ```
 
 Use Go:
