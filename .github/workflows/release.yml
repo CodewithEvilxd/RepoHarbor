@@ -96,6 +96,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
 
-      - run: npm publish --access public
+      - run: npm publish --access public --otp="${{ secrets.NPM_OTP }}"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
